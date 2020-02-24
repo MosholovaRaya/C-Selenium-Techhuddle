@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C# Selenium Techhuddle\\C-Selenium-Techhuddle\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "D:\\C# Selenium Techhuddle\\C-Selenium-Techhuddle\\ConsoleApp2\\ConsoleApp2.csproj": {}
   },
   "projects": {
-    "D:\\C# Selenium Techhuddle\\C-Selenium-Techhuddle\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "D:\\C# Selenium Techhuddle\\C-Selenium-Techhuddle\\ConsoleApp2\\ConsoleApp2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C# Selenium Techhuddle\\C-Selenium-Techhuddle\\ConsoleApp1\\ConsoleApp1.csproj",
-        "projectName": "ConsoleApp1",
-        "projectPath": "D:\\C# Selenium Techhuddle\\C-Selenium-Techhuddle\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "D:\\C# Selenium Techhuddle\\C-Selenium-Techhuddle\\ConsoleApp2\\ConsoleApp2.csproj",
+        "projectName": "ConsoleApp2",
+        "projectPath": "D:\\C# Selenium Techhuddle\\C-Selenium-Techhuddle\\ConsoleApp2\\ConsoleApp2.csproj",
         "packagesPath": "C:\\Users\\TechHuddle\\.nuget\\packages\\",
-        "outputPath": "D:\\C# Selenium Techhuddle\\C-Selenium-Techhuddle\\ConsoleApp1\\obj\\",
+        "outputPath": "D:\\C# Selenium Techhuddle\\C-Selenium-Techhuddle\\ConsoleApp2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TechHuddle\\AppData\\Roaming\\NuGet\\NuGet.Config",

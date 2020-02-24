@@ -1,0 +1,11 @@
+D:\C# Selenium Techhuddle\C-Selenium-Techhuddle\ConsoleApp2\obj\Debug\netcoreapp3.1\ConsoleApp2.csprojAssemblyReference.cache
+D:\C# Selenium Techhuddle\C-Selenium-Techhuddle\ConsoleApp2\obj\Debug\netcoreapp3.1\ConsoleApp2.AssemblyInfoInputs.cache
+D:\C# Selenium Techhuddle\C-Selenium-Techhuddle\ConsoleApp2\obj\Debug\netcoreapp3.1\ConsoleApp2.AssemblyInfo.cs
+D:\C# Selenium Techhuddle\C-Selenium-Techhuddle\ConsoleApp2\bin\Debug\netcoreapp3.1\ConsoleApp2.exe
+D:\C# Selenium Techhuddle\C-Selenium-Techhuddle\ConsoleApp2\bin\Debug\netcoreapp3.1\ConsoleApp2.deps.json
+D:\C# Selenium Techhuddle\C-Selenium-Techhuddle\ConsoleApp2\bin\Debug\netcoreapp3.1\ConsoleApp2.runtimeconfig.json
+D:\C# Selenium Techhuddle\C-Selenium-Techhuddle\ConsoleApp2\bin\Debug\netcoreapp3.1\ConsoleApp2.runtimeconfig.dev.json
+D:\C# Selenium Techhuddle\C-Selenium-Techhuddle\ConsoleApp2\bin\Debug\netcoreapp3.1\ConsoleApp2.dll
+D:\C# Selenium Techhuddle\C-Selenium-Techhuddle\ConsoleApp2\bin\Debug\netcoreapp3.1\ConsoleApp2.pdb
+D:\C# Selenium Techhuddle\C-Selenium-Techhuddle\ConsoleApp2\obj\Debug\netcoreapp3.1\ConsoleApp2.dll
+D:\C# Selenium Techhuddle\C-Selenium-Techhuddle\ConsoleApp2\obj\Debug\netcoreapp3.1\ConsoleApp2.pdb

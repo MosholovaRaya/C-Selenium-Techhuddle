@@ -21,6 +21,8 @@ namespace ConsoleApp1
 
             Console.WriteLine("Name: {0} {1}, Age: {2}", firstName1, lastName1, age);
             Console.WriteLine("Univesity: {0}", university);
+
+
         }
     }
 }
