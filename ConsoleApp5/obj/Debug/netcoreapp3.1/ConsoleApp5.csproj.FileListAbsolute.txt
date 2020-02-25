@@ -1,0 +1,10 @@
+D:\C# Selenium Techhuddle\C-Selenium-Techhuddle\ConsoleApp5\obj\Debug\netcoreapp3.1\ConsoleApp5.AssemblyInfoInputs.cache
+D:\C# Selenium Techhuddle\C-Selenium-Techhuddle\ConsoleApp5\obj\Debug\netcoreapp3.1\ConsoleApp5.AssemblyInfo.cs
+D:\C# Selenium Techhuddle\C-Selenium-Techhuddle\ConsoleApp5\bin\Debug\netcoreapp3.1\ConsoleApp5.exe
+D:\C# Selenium Techhuddle\C-Selenium-Techhuddle\ConsoleApp5\bin\Debug\netcoreapp3.1\ConsoleApp5.deps.json
+D:\C# Selenium Techhuddle\C-Selenium-Techhuddle\ConsoleApp5\bin\Debug\netcoreapp3.1\ConsoleApp5.runtimeconfig.json
+D:\C# Selenium Techhuddle\C-Selenium-Techhuddle\ConsoleApp5\bin\Debug\netcoreapp3.1\ConsoleApp5.runtimeconfig.dev.json
+D:\C# Selenium Techhuddle\C-Selenium-Techhuddle\ConsoleApp5\bin\Debug\netcoreapp3.1\ConsoleApp5.dll
+D:\C# Selenium Techhuddle\C-Selenium-Techhuddle\ConsoleApp5\bin\Debug\netcoreapp3.1\ConsoleApp5.pdb
+D:\C# Selenium Techhuddle\C-Selenium-Techhuddle\ConsoleApp5\obj\Debug\netcoreapp3.1\ConsoleApp5.dll
+D:\C# Selenium Techhuddle\C-Selenium-Techhuddle\ConsoleApp5\obj\Debug\netcoreapp3.1\ConsoleApp5.pdb
