@@ -13,6 +13,7 @@ namespace ConsoleApp1
             string house = "N5";
 
             Console.WriteLine("Name: {0} {1}, Address: {2}, {3} {4}", firstName, lastName, city, street, house);
+            Console.WriteLine($"Name: {firstName} {lastName}, Address: {city}, {street} {house}");
 
             string firstName1 = "Ivan";
             string lastName1 = "Petkov";
@@ -20,7 +21,8 @@ namespace ConsoleApp1
             string university = "Sofia University";
 
             Console.WriteLine("Name: {0} {1}, Age: {2}", firstName1, lastName1, age);
-            Console.WriteLine("Univesity: {0}", university);
+            Console.WriteLine("Univerity: {0}", university);
+            Console.WriteLine($"Name: {firstName1} {lastName1}, Age: {age}\nUniversity: {university}");
 
 
         }

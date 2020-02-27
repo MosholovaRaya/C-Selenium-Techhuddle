@@ -1,0 +1,11 @@
+D:\C# Selenium Techhuddle\C-Selenium-Techhuddle\Lecture2homework\bin\Debug\netcoreapp3.1\Lecture2homework.exe
+D:\C# Selenium Techhuddle\C-Selenium-Techhuddle\Lecture2homework\bin\Debug\netcoreapp3.1\Lecture2homework.deps.json
+D:\C# Selenium Techhuddle\C-Selenium-Techhuddle\Lecture2homework\bin\Debug\netcoreapp3.1\Lecture2homework.runtimeconfig.json
+D:\C# Selenium Techhuddle\C-Selenium-Techhuddle\Lecture2homework\bin\Debug\netcoreapp3.1\Lecture2homework.runtimeconfig.dev.json
+D:\C# Selenium Techhuddle\C-Selenium-Techhuddle\Lecture2homework\bin\Debug\netcoreapp3.1\Lecture2homework.dll
+D:\C# Selenium Techhuddle\C-Selenium-Techhuddle\Lecture2homework\bin\Debug\netcoreapp3.1\Lecture2homework.pdb
+D:\C# Selenium Techhuddle\C-Selenium-Techhuddle\Lecture2homework\obj\Debug\netcoreapp3.1\Lecture2homework.csprojAssemblyReference.cache
+D:\C# Selenium Techhuddle\C-Selenium-Techhuddle\Lecture2homework\obj\Debug\netcoreapp3.1\Lecture2homework.AssemblyInfoInputs.cache
+D:\C# Selenium Techhuddle\C-Selenium-Techhuddle\Lecture2homework\obj\Debug\netcoreapp3.1\Lecture2homework.AssemblyInfo.cs
+D:\C# Selenium Techhuddle\C-Selenium-Techhuddle\Lecture2homework\obj\Debug\netcoreapp3.1\Lecture2homework.dll
+D:\C# Selenium Techhuddle\C-Selenium-Techhuddle\Lecture2homework\obj\Debug\netcoreapp3.1\Lecture2homework.pdb
