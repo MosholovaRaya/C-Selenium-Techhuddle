@@ -13,11 +13,23 @@ namespace Lecture2homework
             //Calculations.Ex1d();
             //Calculations.Ex2();
             //Calculations.Ex3();
-            Calculations.Ex4();
+            //Calculations.Ex4();
+            //Calculations.Ex5();
+            //Calculations.Ex6();
+            //Calculations.Ex7();
+            //Calculations.Ex8();
+            //Calculations.Ex9();
+            //Calculations.Ex10();
+            Calculations.Ex11();
 
 
 
-                  
+
+
+
+
+
+
 
         }
     }
