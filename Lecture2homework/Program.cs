@@ -20,7 +20,11 @@ namespace Lecture2homework
             //Calculations.Ex8();
             //Calculations.Ex9();
             //Calculations.Ex10();
-            Calculations.Ex11();
+            //Calculations.Ex11();
+            //Conditions.Ex1();
+            Conditions.Ex2();
+
+
 
 
 

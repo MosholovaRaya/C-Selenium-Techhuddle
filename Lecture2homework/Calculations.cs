@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Lecture2homework
 {
@@ -168,16 +166,62 @@ namespace Lecture2homework
             double radius = double.Parse(Console.ReadLine());
 
             double surfaceOfsphere = 4 * Math.PI * radius * radius;
-            double volumeOfsphere = 4* Math.PI * radius * radius * radius/3;
+            double volumeOfsphere = 4 * Math.PI * radius * radius * radius / 3;
 
             Console.WriteLine(surfaceOfsphere);
             Console.WriteLine(volumeOfsphere);
 
-                }
+        }
         public static void Ex11()
         {
+            double X = double.Parse(Console.ReadLine());
+            double Y = double.Parse(Console.ReadLine());
+
+            if (X > 0 && Y > 0)
+            {
+                Console.WriteLine($"The coordinate point ({X},{Y}) lies in the First Quadrant");
+            }
+
+           else if (X < 0 && Y > 0)
+            {
+                Console.WriteLine($"The coordinate point ({X},{Y}) lies in the Second Quadrant");
+            }
+
+          else  if (X < 0 && Y < 0)
+            {
+                Console.WriteLine($"The coordinate point ({X},{Y}) lies in the Third Quadrant");
+            }
+          
+           else if (X > 0 && Y < 0)
+            {
+                Console.WriteLine($"The coordinate point ({X},{Y}) lies in the Fourth Quadrant");
+            }
+          else  if (X == 0 && Y == 0)
+            {
+                Console.WriteLine($"The coordinate point ({X},{Y}) lies in the origin point");
+            }
+         else   if (X > 0 && Y == 0)
+            {
+                Console.WriteLine($"The coordinate point ({X},{Y}) lies between First and Fourth Quadrant");
+            }
+
+         else if (X < 0 && Y==0 )
+            {
+                Console.WriteLine($"The coordinate point ({X},{Y}) lies between Second and Third Quadrant");
+            }
+         
+          else if (X == 0 && Y < 0)
+            {
+                Console.WriteLine($"The coordinate point ({X},{Y}) lies between Third and Fourth Quadrant");
+            }
+          else if (X == 0 && Y > 0)
+            {
+                Console.WriteLine($"The coordinate point ({X},{Y}) lies between First and Second Quadrant");
+            }
 
         }
+
+
 
     }
 }
