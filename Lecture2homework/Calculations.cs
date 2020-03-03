@@ -154,11 +154,20 @@ namespace Lecture2homework
         }
         public static void Ex9()
         {
-            int number1 = int.Parse(Console.ReadLine());
+            Console.Write("Please input an year: ");
+            int year = int.Parse(Console.ReadLine());
+            int century = year / 100;
 
-            int a = (int)(number1 / 100) + 1;
+            if (year < 0)
+            {
+                century--;
+            }
+            else
+            {
+                century++;
+            }
 
-            Console.WriteLine("Current century is: " + a);
+            Console.WriteLine("Current century is: " + century);
 
         }
         public static void Ex10()

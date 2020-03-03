@@ -22,15 +22,12 @@ namespace Lecture2homework
             //Calculations.Ex10();
             //Calculations.Ex11();
             //Conditions.Ex1();
-            Conditions.Ex2();
-
-
-
-
-
-
-
-
+            //Conditions.Ex2();
+            //Conditions.Ex3();
+            //Conditions.Ex4();
+            //Conditions.Ex5();
+            //Conditions.Ex6();
+            CharactersAndStrings.Ex1()
 
 
 

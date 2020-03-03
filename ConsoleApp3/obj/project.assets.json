@@ -8,19 +8,23 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\TechHuddle\\.nuget\\packages\\": {}
+    "C:\\Users\\Lubo\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C# Selenium Techhuddle\\C-Selenium-Techhuddle\\ConsoleApp3\\ConsoleApp3.csproj",
+      "projectUniqueName": "C:\\RayaGitHub\\C-Selenium-Techhuddle\\ConsoleApp3\\ConsoleApp3.csproj",
       "projectName": "ConsoleApp3",
-      "projectPath": "D:\\C# Selenium Techhuddle\\C-Selenium-Techhuddle\\ConsoleApp3\\ConsoleApp3.csproj",
-      "packagesPath": "C:\\Users\\TechHuddle\\.nuget\\packages\\",
-      "outputPath": "D:\\C# Selenium Techhuddle\\C-Selenium-Techhuddle\\ConsoleApp3\\obj\\",
+      "projectPath": "C:\\RayaGitHub\\C-Selenium-Techhuddle\\ConsoleApp3\\ConsoleApp3.csproj",
+      "packagesPath": "C:\\Users\\Lubo\\.nuget\\packages\\",
+      "outputPath": "C:\\RayaGitHub\\C-Selenium-Techhuddle\\ConsoleApp3\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\TechHuddle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lubo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -58,7 +62,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
