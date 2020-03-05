@@ -24,5 +24,29 @@ namespace Lecture2homework
                 Console.WriteLine(lastChar + mid + firstChar);
             }
         }
+        public static void Ex2()
+        {
+            string s = Console.ReadLine();
+
+            if (s.Length < 1)
+            {
+                Console.WriteLine("Min string lenght of 1 is required.");
+                return;
+            }
+            
+            string firstLetter = s[0].ToString();       
+           
+            s = s.Insert(0, firstLetter);
+            s = s.Insert(s.Length, firstLetter);
+
+            Console.WriteLine(s);                 
+        }
+
+        public static void Ex3()
+        {
+            char[] chars = Console.ReadLine().ToCharArray();
+            Array.Reverse(chars);
+            Console.WriteLine(chars);
+        }
     }
 }

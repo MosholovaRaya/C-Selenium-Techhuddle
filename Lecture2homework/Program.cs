@@ -27,7 +27,9 @@ namespace Lecture2homework
             //Conditions.Ex4();
             //Conditions.Ex5();
             //Conditions.Ex6();
-            CharactersAndStrings.Ex1();
+            //CharactersAndStrings.Ex1();
+            //CharactersAndStrings.Ex2();
+            CharactersAndStrings.Ex3();
 
         }
     }
