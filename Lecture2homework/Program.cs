@@ -30,7 +30,14 @@ namespace Lecture2homework
             //CharactersAndStrings.Ex1();
             //CharactersAndStrings.Ex2();
             //CharactersAndStrings.Ex3();
-            CharactersAndStrings.Ex4();
+            //CharactersAndStrings.Ex4();
+            //CharactersAndStrings.Ex5();
+            //CharactersAndStrings.Ex6();
+            //DateAndTime.Ex1();
+            DateAndTime.Ex2();
+
+
+
 
 
         }

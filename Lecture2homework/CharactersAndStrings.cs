@@ -55,8 +55,6 @@ namespace Lecture2homework
             string s = Console.ReadLine();
             int counter = 0;
 
-            //input.Count();
-
             for (int i = 0; i < s.Length; i++)
             {
                 if(s[i] == 'c')
@@ -64,18 +62,41 @@ namespace Lecture2homework
                     counter++;
                 }
             }
-            
-           if(counter > 0 && counter < 4)
+
+            Console.WriteLine(counter > 0 && counter < 4);
+        }
+
+        public static void Ex5()
+        {
+
+            string input = Console.ReadLine();
+            if (input.Length != 1)
             {
-                Console.WriteLine("True");
+                Console.WriteLine("Please enter 1 character only.");
+                return;
+            }
+
+            char character = Convert.ToChar(input);
+
+            if (char.IsLetter(character))
+            {
+                Console.WriteLine("It's a lowercase letter.");
+            }
+            else if (char.IsDigit(character))
+            {
+                Console.WriteLine("It's a digit.");
             }
             else
             {
-                Console.WriteLine("False");
+                Console.WriteLine("It's a symbol.");
             }
-          
-                              
         }
 
+        public static void Ex6()
+        {
+            int input = int.Parse(Console.ReadLine());
+
+            Console.WriteLine(Convert.ToString(input, 2));
+        }
     }
 }
