@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace Lecture2homework
@@ -48,5 +49,33 @@ namespace Lecture2homework
             Array.Reverse(chars);
             Console.WriteLine(chars);
         }
+
+        public static void Ex4()
+        {
+            string s = Console.ReadLine();
+            int counter = 0;
+
+            //input.Count();
+
+            for (int i = 0; i < s.Length; i++)
+            {
+                if(s[i] == 'c')
+                {
+                    counter++;
+                }
+            }
+            
+           if(counter > 0 && counter < 4)
+            {
+                Console.WriteLine("True");
+            }
+            else
+            {
+                Console.WriteLine("False");
+            }
+          
+                              
+        }
+
     }
 }
