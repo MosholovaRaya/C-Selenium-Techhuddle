@@ -34,7 +34,21 @@ namespace Lecture2homework
             //CharactersAndStrings.Ex5();
             //CharactersAndStrings.Ex6();
             //DateAndTime.Ex1();
-            DateAndTime.Ex2();
+            //DateAndTime.Ex2();
+            //DateAndTime.Ex3();
+            //DateAndTime.Ex4();
+            //DateAndTime.Ex5();
+            //DateAndTime.Ex6();
+            //DateAndTime.extraEX();
+            //ElectricityBill.eB();
+            SchoolGrades.sG();
+
+
+            
+
+
+
+
 
 
 
