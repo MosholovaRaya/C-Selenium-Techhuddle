@@ -41,7 +41,7 @@ namespace Lecture2homework
             //DateAndTime.Ex6();
             //DateAndTime.extraEX();
             //ElectricityBill.eB();
-            SchoolGrades.sG();
+            //SchoolGrades.sG();
 
 
             

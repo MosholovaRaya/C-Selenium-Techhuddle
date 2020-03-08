@@ -1,0 +1,11 @@
+C:\RayaGitHub\C-Selenium-Techhuddle\Lecture3homework\bin\Debug\netcoreapp3.1\Lecture3homework.exe
+C:\RayaGitHub\C-Selenium-Techhuddle\Lecture3homework\bin\Debug\netcoreapp3.1\Lecture3homework.deps.json
+C:\RayaGitHub\C-Selenium-Techhuddle\Lecture3homework\bin\Debug\netcoreapp3.1\Lecture3homework.runtimeconfig.json
+C:\RayaGitHub\C-Selenium-Techhuddle\Lecture3homework\bin\Debug\netcoreapp3.1\Lecture3homework.runtimeconfig.dev.json
+C:\RayaGitHub\C-Selenium-Techhuddle\Lecture3homework\bin\Debug\netcoreapp3.1\Lecture3homework.dll
+C:\RayaGitHub\C-Selenium-Techhuddle\Lecture3homework\bin\Debug\netcoreapp3.1\Lecture3homework.pdb
+C:\RayaGitHub\C-Selenium-Techhuddle\Lecture3homework\obj\Debug\netcoreapp3.1\Lecture3homework.AssemblyInfoInputs.cache
+C:\RayaGitHub\C-Selenium-Techhuddle\Lecture3homework\obj\Debug\netcoreapp3.1\Lecture3homework.AssemblyInfo.cs
+C:\RayaGitHub\C-Selenium-Techhuddle\Lecture3homework\obj\Debug\netcoreapp3.1\Lecture3homework.dll
+C:\RayaGitHub\C-Selenium-Techhuddle\Lecture3homework\obj\Debug\netcoreapp3.1\Lecture3homework.pdb
+C:\RayaGitHub\C-Selenium-Techhuddle\Lecture3homework\obj\Debug\netcoreapp3.1\Lecture3homework.csprojAssemblyReference.cache
