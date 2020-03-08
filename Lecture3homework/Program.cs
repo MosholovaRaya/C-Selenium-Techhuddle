@@ -14,14 +14,8 @@ namespace Lecture3homework
             //Exercises.Ex6();
             //Exercises.Ex7();
             //Exercises.Ex8();
-            Exercises.Ex9a();
-
-
-
-
-
-
-
+            //Exercises.Ex9();
+            Exercises.Ex10();
         }
     }
 }

@@ -20,7 +20,7 @@ namespace Lecture3homework
         {
             double sum = 0;
             Console.WriteLine("Input the 10 numbers");
-            for (int i=1; i <= 10; i++)
+            for (int i = 1; i <= 10; i++)
             {
                 Console.Write($"Number-{i}: ");
                 double input = double.Parse(Console.ReadLine());
@@ -78,11 +78,11 @@ namespace Lecture3homework
                 x = y;
                 y = z;
                 Console.Write(y + " ");
-                      
+
             }
         }
         public static void Ex6()
-           
+
         {
             int sum = 0;
 
@@ -94,17 +94,17 @@ namespace Lecture3homework
                     sum = sum + i;
                     Console.Write(i + " ");
                 }
-             
+
             }
             Console.WriteLine();
-            Console.WriteLine("The sum is : " +sum);
+            Console.WriteLine("The sum is : " + sum);
         }
         public static void Ex7()
         {
             Console.Write("Enter a number to convert: ");
 
             int number = int.Parse(Console.ReadLine());
-           
+
             Console.WriteLine($"The Binary of {number} is: {Convert.ToString(number, 2)}");
 
         }
@@ -116,19 +116,103 @@ namespace Lecture3homework
 
             Console.WriteLine($"The decimal of {number} is: {Convert.ToInt32(number, 2)}");
         }
-        public static void Ex9a()
+        public static void Ex9()
         {
+            // Used help for ALL the following exercises
             int number = 5;
 
             for (int i = 1; i <= number; i++)
             {
-                Console.Write(number - i);
+
                 for (int j = 1; j <= i; j++)
                 {
-                    Console.Write(i);
+                    Console.Write(j);
                 }
                 Console.WriteLine();
             }
+            Console.WriteLine();
+            for (int i = 5; i >= 1; i--)
+            {
+
+                for (int j = 1; j <= i; j++)
+                {
+                    Console.Write(j);
+                }
+                Console.WriteLine();
+            }
+            Console.WriteLine();
+            for (int i = 5; i >= 1; i--)
+            {
+
+                for (int j = i; j >= 1; j--)
+                {
+                    Console.Write(j + " ");
+                }
+                Console.WriteLine();
+            }
+
+            Console.WriteLine();
+            for (int i = 1; i <= 5; i++)
+            {
+
+                for (int j = 5; j >= i; j--)
+                {
+                    Console.Write(j + " ");
+                }
+                Console.WriteLine();
+            }
+            Console.WriteLine();
+            int counter = 0;
+            for (int i = 1; i <= 5; i++)
+            {
+
+                for (int j = 1; j <= i; j++)
+                {
+                    counter = counter + 1;
+                    Console.Write(counter + " ");
+                }
+                Console.WriteLine();
+            }
+
+            Console.WriteLine();
+            counter = 65;
+            for (int i = 1; i <= 8; i++)
+            {
+                for (int j = 1; j <= i; j++)
+                {
+                    Console.Write((char)counter + " ");
+                    counter = counter + 1;
+                    if (counter == 91) counter = 65;
+                }
+                Console.WriteLine();
+            }
+
+            Console.WriteLine();
+            for (int i = 1; i <= 5; i++)
+            {
+                for (int j = 1; j <= 5; j++)
+                {
+                    Console.Write($"{Convert.ToInt32(i == 1 || j == 1 || i == 5 || j == 5)} ");
+                }
+                Console.WriteLine();
+            }
+        }
+
+        public static void Ex10()
+        {
+            Console.Write("x = ");
+            int x = int.Parse(Console.ReadLine());
+
+            Console.Write("n = ");
+            int n = int.Parse(Console.ReadLine());
+
+            double sum = 0;
+            for (int i = 0; i <= n; i++)
+            {
+                sum += Math.Pow(x, i);
+            }
+
+            Console.WriteLine(sum);
         }
     }
 }
