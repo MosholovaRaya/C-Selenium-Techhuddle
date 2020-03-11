@@ -188,11 +188,12 @@ namespace Lecture3homework
             }
 
             Console.WriteLine();
-            for (int i = 1; i <= 5; i++)
+            int n = 5;
+            for (int i = 1; i <= n; i++)
             {
-                for (int j = 1; j <= 5; j++)
+                for (int j = 1; j <= n; j++)
                 {
-                    Console.Write($"{Convert.ToInt32(i == 1 || j == 1 || i == 5 || j == 5)} ");
+                    Console.Write(Convert.ToInt32(i == 1 || j == 1 || i == n || j == n) + " ");
                 }
                 Console.WriteLine();
             }
