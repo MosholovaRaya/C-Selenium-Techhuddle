@@ -124,13 +124,43 @@ namespace Lecture4homework
                 sentence[i] = Console.ReadLine();
             }
 
-            sentence[^1] = "Raya";
+            string[] newSentence = new string[n+1];
 
-            Console.WriteLine(string.Join(" ", sentence));
+            sentence.CopyTo(newSentence, 0);
+           
+            Console.Write("Enter new element: ");
+            newSentence[n] = Console.ReadLine();
+            
+            Console.WriteLine(string.Join(", ", newSentence));
         }
         public static void Ex6()
         {
+            Console.Write("Enter numbers if elements in the array: ");
+            int n = int.Parse(Console.ReadLine());
 
+
+            string[] sentence = new string[n];
+
+            for (int i = 0; i < n; i++)
+            {
+                Console.Write($"Enter word {i + 1}: ");
+                sentence[i] = Console.ReadLine();
+            }
+
+            string[] newSentence = new string[n - 1];
+
+            Console.Write("Index to remove: ");
+            int toRemove = int.Parse(Console.ReadLine());
+
+            for (int i = 0; i < toRemove; i++)
+            {
+                newSentence[i] = sentence[i];
+            }
+            for (int i = toRemove+1; i < n; i++)
+            {
+                newSentence[i - 1] = sentence[i];
+            }
+            Console.WriteLine(string.Join(",", newSentence));
         }
 
     }
