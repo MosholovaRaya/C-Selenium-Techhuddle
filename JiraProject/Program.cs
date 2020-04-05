@@ -6,9 +6,7 @@ namespace JiraProject
     {
         static void Main(string[] args)
         {
-            Project project = new Project();
-            project.Title = "New project";
-
+            Ticket ticket = new Ticket();
            
         }
     }

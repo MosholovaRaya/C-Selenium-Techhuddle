@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C# Selenium Techhuddle\\C-Selenium-Techhuddle\\ConsoleApp5\\ConsoleApp5.csproj": {}
+    "C:\\RayaGitHub\\C-Selenium-Techhuddle\\ConsoleApp5\\ConsoleApp5.csproj": {}
   },
   "projects": {
-    "D:\\C# Selenium Techhuddle\\C-Selenium-Techhuddle\\ConsoleApp5\\ConsoleApp5.csproj": {
+    "C:\\RayaGitHub\\C-Selenium-Techhuddle\\ConsoleApp5\\ConsoleApp5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C# Selenium Techhuddle\\C-Selenium-Techhuddle\\ConsoleApp5\\ConsoleApp5.csproj",
+        "projectUniqueName": "C:\\RayaGitHub\\C-Selenium-Techhuddle\\ConsoleApp5\\ConsoleApp5.csproj",
         "projectName": "ConsoleApp5",
-        "projectPath": "D:\\C# Selenium Techhuddle\\C-Selenium-Techhuddle\\ConsoleApp5\\ConsoleApp5.csproj",
-        "packagesPath": "C:\\Users\\TechHuddle\\.nuget\\packages\\",
-        "outputPath": "D:\\C# Selenium Techhuddle\\C-Selenium-Techhuddle\\ConsoleApp5\\obj\\",
+        "projectPath": "C:\\RayaGitHub\\C-Selenium-Techhuddle\\ConsoleApp5\\ConsoleApp5.csproj",
+        "packagesPath": "C:\\Users\\Lubo\\.nuget\\packages\\",
+        "outputPath": "C:\\RayaGitHub\\C-Selenium-Techhuddle\\ConsoleApp5\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\TechHuddle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lubo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -52,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

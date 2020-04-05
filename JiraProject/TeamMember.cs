@@ -6,10 +6,12 @@ namespace JiraProject
 {
     class TeamMember
     {
-        public string FirstName;
-        public string FamilyName;
-        public DateTime DoB;
-        public decimal YearsOfExperience;                 
-        public string Role;
+        public string FirstName { get; set; }
+        public string LastName { get; set; } 
+        public DateTime DateOfBirth { get; set; }
+        public int YearsOfExperience { get; set; }
+        public TeamMemberRole Role { get; set; }
+
     }
+    enum TeamMemberRole { ProjectManager, Programmer, Tester}
 }
