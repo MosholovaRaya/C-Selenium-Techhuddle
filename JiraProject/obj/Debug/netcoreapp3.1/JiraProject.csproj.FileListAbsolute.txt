@@ -1,0 +1,13 @@
+C:\RayaGitHub\C-Selenium-Techhuddle\JiraProject\bin\Debug\netcoreapp3.1\JiraProject.exe
+C:\RayaGitHub\C-Selenium-Techhuddle\JiraProject\bin\Debug\netcoreapp3.1\JiraProject.deps.json
+C:\RayaGitHub\C-Selenium-Techhuddle\JiraProject\bin\Debug\netcoreapp3.1\JiraProject.runtimeconfig.json
+C:\RayaGitHub\C-Selenium-Techhuddle\JiraProject\bin\Debug\netcoreapp3.1\JiraProject.runtimeconfig.dev.json
+C:\RayaGitHub\C-Selenium-Techhuddle\JiraProject\bin\Debug\netcoreapp3.1\JiraProject.dll
+C:\RayaGitHub\C-Selenium-Techhuddle\JiraProject\bin\Debug\netcoreapp3.1\JiraProject.pdb
+C:\RayaGitHub\C-Selenium-Techhuddle\JiraProject\obj\Debug\netcoreapp3.1\JiraProject.csprojAssemblyReference.cache
+C:\RayaGitHub\C-Selenium-Techhuddle\JiraProject\obj\Debug\netcoreapp3.1\JiraProject.csproj.CoreCompileInputs.cache
+C:\RayaGitHub\C-Selenium-Techhuddle\JiraProject\obj\Debug\netcoreapp3.1\JiraProject.AssemblyInfoInputs.cache
+C:\RayaGitHub\C-Selenium-Techhuddle\JiraProject\obj\Debug\netcoreapp3.1\JiraProject.AssemblyInfo.cs
+C:\RayaGitHub\C-Selenium-Techhuddle\JiraProject\obj\Debug\netcoreapp3.1\JiraProject.dll
+C:\RayaGitHub\C-Selenium-Techhuddle\JiraProject\obj\Debug\netcoreapp3.1\JiraProject.pdb
+C:\RayaGitHub\C-Selenium-Techhuddle\JiraProject\obj\Debug\netcoreapp3.1\JiraProject.genruntimeconfig.cache

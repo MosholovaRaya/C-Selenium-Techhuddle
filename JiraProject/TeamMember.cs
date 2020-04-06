@@ -12,6 +12,10 @@ namespace JiraProject
         public int YearsOfExperience { get; set; }
         public TeamMemberRole Role { get; set; }
 
+        public TeamMember(TeamMemberRole role)
+        {
+            Role = role;
+        }
     }
-    enum TeamMemberRole { ProjectManager, Programmer, Tester}
+    enum TeamMemberRole { ProjectManager, Programmer, QA }
 }

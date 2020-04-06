@@ -6,8 +6,10 @@ namespace JiraProject
     {
         static void Main(string[] args)
         {
-            Ticket ticket = new Ticket();
-           
+            TeamMember author = new TeamMember(TeamMemberRole.QA);
+            Ticket t = new Ticket("Do this", author);
+
+            Console.WriteLine(t.Status);
         }
     }
 }
