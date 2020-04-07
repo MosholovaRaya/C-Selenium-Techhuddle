@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\RayaGitHub\\C-Selenium-Techhuddle\\Lecture5homeworkLibrary\\Lecture5homeworkLibrary.csproj": {}
+    "D:\\C# Selenium Techhuddle\\C-Selenium-Techhuddle\\Lecture5homeworkLibrary\\Lecture5homeworkLibrary.csproj": {}
   },
   "projects": {
-    "C:\\RayaGitHub\\C-Selenium-Techhuddle\\Lecture5homeworkLibrary\\Lecture5homeworkLibrary.csproj": {
+    "D:\\C# Selenium Techhuddle\\C-Selenium-Techhuddle\\Lecture5homeworkLibrary\\Lecture5homeworkLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\RayaGitHub\\C-Selenium-Techhuddle\\Lecture5homeworkLibrary\\Lecture5homeworkLibrary.csproj",
+        "projectUniqueName": "D:\\C# Selenium Techhuddle\\C-Selenium-Techhuddle\\Lecture5homeworkLibrary\\Lecture5homeworkLibrary.csproj",
         "projectName": "Lecture5homeworkLibrary",
-        "projectPath": "C:\\RayaGitHub\\C-Selenium-Techhuddle\\Lecture5homeworkLibrary\\Lecture5homeworkLibrary.csproj",
-        "packagesPath": "C:\\Users\\Lubo\\.nuget\\packages\\",
-        "outputPath": "C:\\RayaGitHub\\C-Selenium-Techhuddle\\Lecture5homeworkLibrary\\obj\\",
+        "projectPath": "D:\\C# Selenium Techhuddle\\C-Selenium-Techhuddle\\Lecture5homeworkLibrary\\Lecture5homeworkLibrary.csproj",
+        "packagesPath": "C:\\Users\\TechHuddle\\.nuget\\packages\\",
+        "outputPath": "D:\\C# Selenium Techhuddle\\C-Selenium-Techhuddle\\Lecture5homeworkLibrary\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Lubo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\TechHuddle\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
