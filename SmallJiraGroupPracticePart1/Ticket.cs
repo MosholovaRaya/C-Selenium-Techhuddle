@@ -22,6 +22,7 @@ namespace SmallJiraGroupPracticePart1
         private string description;
         private List<Comment> comments;
         private Member author;
+    
 
         //Properties:
         public Guid Id { get; }
@@ -48,17 +49,14 @@ namespace SmallJiraGroupPracticePart1
         public DateTime CreationDate { get; }
         public DateTime CompletionDate { get; }
         public double EstimationTime{ get; set; }
-        public double CompletionTime
-        {
-            get
-            {
-                return (completionDate - creationDate).TotalHours;
-            }
-         }
+        public double CompletionTime { get; set;) }
+      
         public TicketStatus Status { get; set; }
-        private string Description { get; set; }
-        private List<Comment> Comments { get; }
-        private Member Author { get; }
+        public string Description { get; set; }
+        public List<Comment> Comments { get; }
+        public Member Author { get; }
+     
+
 
         //Constructor
 
@@ -72,8 +70,11 @@ namespace SmallJiraGroupPracticePart1
             this.status = TicketStatus.ToDo;
             this.comments = new List<Comment>();
             this.estimationTime = estimationTime;
+            this.completionTime = 0;
+            
                 
          }
+        //Methods
 
         public void AddComment(Comment comment)
         {
@@ -81,7 +82,66 @@ namespace SmallJiraGroupPracticePart1
 
         }
 
+        public void ChangeStatusToToDo()
+        {
+            
+            if (this.status == TicketStatus.InProgress || this.status == TicketStatus.ReadyForTesting )
+            {
+                this.status = TicketStatus.ToDo;
+            }
+            else
+            {
+                throw new InvalidOperationException("Cannot perform this operation");
+            }
+        }
+        public void ChangeStatusToInProgress()
+        {
+            if (this.assignee.Role == MemberRole.Programmer && this.status == TicketStatus.ToDo )
+            {
+                this.status = TicketStatus.ReadyForTesting;
+            }
+            else
+            {
+                throw new InvalidOperationException("You must have assignee of type programme");
+            }
+        }
 
+        public void ChangeStatusToReadyForTesting()
+        {
+            this.status = TicketStatus.ToDo;
+            this.assignee = null;
+        }
+        public void ChangeStatusToBeingTested ()
+        {
+            if (this.assignee.Role == MemberRole.QA && this.status == TicketStatus.ReadyForTesting)
+            {
+                this.status = TicketStatus.BeingTested;
+            }
+            else
+            {
+                throw new InvalidOperationException("You must have assignee of type QA");
+            }
+        }
+
+        public void ChangeStatusToDone()
+        {
+            if (this.status == TicketStatus.BeingTested && this.assignee!=null && this.assignee.Role == MemberRole.QA)
+            {
+                this.status = TicketStatus.Done
+            }
+            else
+            {
+                throw new InvalidOperationException("You cannot move it to done if you're not a QA!!!!!!");
+            }
+        }
+        public void LogTimeToTicket(double hours)
+        {
+            if (this.assignee!=null)
+            {
+                this.completionTime += hours ;
+            }
+        }
+       
 
     }
 }
