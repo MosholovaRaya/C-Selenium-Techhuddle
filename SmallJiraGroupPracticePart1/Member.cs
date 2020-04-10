@@ -7,8 +7,11 @@ namespace SmallJiraGroupPracticePart1
     public enum MemberRole { Manger, Programmer, QA}
     class Member
     {
-        private MemberRole role;
-
         public MemberRole Role { get; }
+
+        public Member(MemberRole role)
+        {
+            Role = role;
+        }
     }
 }
