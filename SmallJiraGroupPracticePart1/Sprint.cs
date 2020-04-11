@@ -8,12 +8,32 @@ namespace SmallJiraGroupPracticePart1
     {
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
-        public List<Ticket> Tickets { get; }
+        public List<Ticket> SprintBacklog {get; }
+        
 
         public Sprint()
         {
-            Tickets = new List<Ticket>();
+            SprintBacklog = new List<Ticket>();
         }
 
+        public double TotalEstimatedTime()
+        {
+            double sum = 0;
+            foreach (Ticket ticket in SprintBacklog)
+            {
+                sum += ticket.EstimationTime;
+            }
+            return sum;
+        }
+
+        public double TotalCompletionTime()
+        {
+            double sum = 0;
+            foreach (Ticket ticket in SprintBacklog)
+            {
+                sum += ticket.CompletionTime;
+            }
+            return sum;
+        }
     }
 }

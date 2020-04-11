@@ -1,0 +1,13 @@
+C:\RayaGitHub\C-Selenium-Techhuddle\SmallJiraGroupPracticePart1\obj\Debug\netcoreapp3.1\SmallJiraGroupPracticePart1.csprojAssemblyReference.cache
+C:\RayaGitHub\C-Selenium-Techhuddle\SmallJiraGroupPracticePart1\obj\Debug\netcoreapp3.1\SmallJiraGroupPracticePart1.csproj.CoreCompileInputs.cache
+C:\RayaGitHub\C-Selenium-Techhuddle\SmallJiraGroupPracticePart1\obj\Debug\netcoreapp3.1\SmallJiraGroupPracticePart1.AssemblyInfoInputs.cache
+C:\RayaGitHub\C-Selenium-Techhuddle\SmallJiraGroupPracticePart1\obj\Debug\netcoreapp3.1\SmallJiraGroupPracticePart1.AssemblyInfo.cs
+C:\RayaGitHub\C-Selenium-Techhuddle\SmallJiraGroupPracticePart1\bin\Debug\netcoreapp3.1\SmallJiraGroupPracticePart1.exe
+C:\RayaGitHub\C-Selenium-Techhuddle\SmallJiraGroupPracticePart1\bin\Debug\netcoreapp3.1\SmallJiraGroupPracticePart1.deps.json
+C:\RayaGitHub\C-Selenium-Techhuddle\SmallJiraGroupPracticePart1\bin\Debug\netcoreapp3.1\SmallJiraGroupPracticePart1.runtimeconfig.json
+C:\RayaGitHub\C-Selenium-Techhuddle\SmallJiraGroupPracticePart1\bin\Debug\netcoreapp3.1\SmallJiraGroupPracticePart1.runtimeconfig.dev.json
+C:\RayaGitHub\C-Selenium-Techhuddle\SmallJiraGroupPracticePart1\bin\Debug\netcoreapp3.1\SmallJiraGroupPracticePart1.dll
+C:\RayaGitHub\C-Selenium-Techhuddle\SmallJiraGroupPracticePart1\bin\Debug\netcoreapp3.1\SmallJiraGroupPracticePart1.pdb
+C:\RayaGitHub\C-Selenium-Techhuddle\SmallJiraGroupPracticePart1\obj\Debug\netcoreapp3.1\SmallJiraGroupPracticePart1.dll
+C:\RayaGitHub\C-Selenium-Techhuddle\SmallJiraGroupPracticePart1\obj\Debug\netcoreapp3.1\SmallJiraGroupPracticePart1.pdb
+C:\RayaGitHub\C-Selenium-Techhuddle\SmallJiraGroupPracticePart1\obj\Debug\netcoreapp3.1\SmallJiraGroupPracticePart1.genruntimeconfig.cache

@@ -7,24 +7,13 @@ namespace SmallJiraGroupPracticePart1
     public enum TicketType { Task, Bug }
 
     public enum TicketStatus { ToDo, InProgress, ReadyForTesting, BeingTested, Done}
+
     class Ticket
-
     {
-        private Guid id;
+        // Fields: in our case we need just one field because the 'Title' property is not auto-implemented
         private string title;
-        private TicketType type;
-        private Member assignee;
-        private DateTime creationDate;
-        private DateTime completionDate;
-        private double estimationTime;
-        private double completionTime;
-        private TicketStatus status;
-        private string description;
-        private List<Comment> comments;
-        private Member author;
-    
 
-        //Properties:
+        // Properties
         public Guid Id { get; }
         public string Title
         {
@@ -49,45 +38,44 @@ namespace SmallJiraGroupPracticePart1
         public DateTime CreationDate { get; }
         public DateTime CompletionDate { get; }
         public double EstimationTime{ get; set; }
-        public double CompletionTime { get; set;) }
+        public double CompletionTime { get; set; }
       
-        public TicketStatus Status { get; set; }
+        public TicketStatus Status { get; private set; }
         public string Description { get; set; }
         public List<Comment> Comments { get; }
         public Member Author { get; }
      
 
 
-        //Constructor
+        // Constructor
 
         public Ticket(string title, Member author, string description, double estimationTime)
         {
-            this.id = Guid.NewGuid();
-            this.title = title;
-            this.type = (author.Role == MemberRole.QA) ? TicketType.Bug : TicketType.Task;
-            this.creationDate = DateTime.Now;
-            this.description = description;
-            this.status = TicketStatus.ToDo;
-            this.comments = new List<Comment>();
-            this.estimationTime = estimationTime;
-            this.completionTime = 0;
-            
-                
+            Id = Guid.NewGuid();
+            Title = title;
+            Type = (author.Role == MemberRole.QA) ? TicketType.Bug : TicketType.Task;
+            CreationDate = DateTime.Now;
+            Description = description;
+            Status = TicketStatus.ToDo;
+            Comments = new List<Comment>();
+            EstimationTime = estimationTime;
+            CompletionTime = 0;
          }
-        //Methods
+
+        // Methods
 
         public void AddComment(Comment comment)
         {
-            this.comments.Add(comment);
+            Comments.Add(comment);
 
         }
 
         public void ChangeStatusToToDo()
         {
             
-            if (this.status == TicketStatus.InProgress || this.status == TicketStatus.ReadyForTesting )
+            if (Status == TicketStatus.InProgress || Status == TicketStatus.ReadyForTesting)
             {
-                this.status = TicketStatus.ToDo;
+                Status = TicketStatus.ToDo;
             }
             else
             {
@@ -96,9 +84,9 @@ namespace SmallJiraGroupPracticePart1
         }
         public void ChangeStatusToInProgress()
         {
-            if (this.assignee.Role == MemberRole.Programmer && this.status == TicketStatus.ToDo )
+            if (Assignee.Role == MemberRole.Programmer && Status == TicketStatus.ToDo)
             {
-                this.status = TicketStatus.ReadyForTesting;
+                Status = TicketStatus.InProgress;
             }
             else
             {
@@ -108,14 +96,14 @@ namespace SmallJiraGroupPracticePart1
 
         public void ChangeStatusToReadyForTesting()
         {
-            this.status = TicketStatus.ToDo;
-            this.assignee = null;
+            Status = TicketStatus.ReadyForTesting;
+            Assignee = null;
         }
         public void ChangeStatusToBeingTested ()
         {
-            if (this.assignee.Role == MemberRole.QA && this.status == TicketStatus.ReadyForTesting)
+            if (Assignee.Role == MemberRole.QA && Status == TicketStatus.ReadyForTesting)
             {
-                this.status = TicketStatus.BeingTested;
+                Status = TicketStatus.BeingTested;
             }
             else
             {
@@ -125,9 +113,9 @@ namespace SmallJiraGroupPracticePart1
 
         public void ChangeStatusToDone()
         {
-            if (this.status == TicketStatus.BeingTested && this.assignee!=null && this.assignee.Role == MemberRole.QA)
+            if (Status == TicketStatus.BeingTested && Assignee!=null && Assignee.Role == MemberRole.QA)
             {
-                this.status = TicketStatus.Done
+                Status = TicketStatus.Done;
             }
             else
             {
@@ -136,9 +124,9 @@ namespace SmallJiraGroupPracticePart1
         }
         public void LogTimeToTicket(double hours)
         {
-            if (this.assignee!=null)
+            if (Assignee!=null)
             {
-                this.completionTime += hours ;
+                CompletionTime += hours ;
             }
         }
        
